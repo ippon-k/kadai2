@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>勝つかボンビー</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+  </header>
+
+  <main class="main">
+    <!-- .mainにバックグラウンドイメージをつける -->
+    <div class="top_area">
+      <h1 class="title">勝つかボンビー</h1>
+    </div>
+    <div class="top-wrap">
+      <div class="left">
+        <p class="sainome"><img id="sainome" src="img/1.JPG" alt=""></p>
+        <!-- ボンビー貼り付け -->
+        <!-- サイコロの数値が１、２なら勝ち、３、４ならボンビー、５、６ならキング -->
+        <p class="comment">サイコロを振って1,2なら勝ち。それ以外は、、、</p>
+        <!-- p要素をボンビーの下に配置 -->
+        <button class="mainButton" onclick="Saikoro();">サイコロを振る</button>
+        <!-- p要素をJSファイルでクリック発火させる -->
+        <!-- <p id="kekka"></p> -->
+        <!-- ＃kekkaに結果を表示 -->
+      </div>
+      <!-- 右エリアにキャラ表示 -->
+      <div class="right">
+        <p class="right_img"><img id="right" src="img/images.jpg" alt=""></p>
+      </div>
+    </div>
+  </main>
+
+  <footer></footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/test.js"></script
+  </body>
+
+  </html>
